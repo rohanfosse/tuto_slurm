@@ -34,6 +34,9 @@ Dans le cas où vous souhaitez lancer un programme sur une seule instance, le fi
 
 ./programme arg1 arg2 #le programme à executer
 ```
+
+Voir le fichier `slurm-example1.slurm` pour plus d'informations.
+
 ## Fichier pour plusieurs instances
 
 Dans le cas où vous souhaitez lancer plusieurs instances en meme temps, il faut rajouter ce bout de code en plus:
@@ -104,6 +107,7 @@ cd $RACINEALGO
 
 ```
 
+Voir le fichier `slurm-example2.slurm` pour plus d'informations.
 
 ## Informations Utiles
 
